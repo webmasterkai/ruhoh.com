@@ -2,7 +2,7 @@
 RuhohSpec: '1.0'
 pages:
   permalink: pretty
-theme: twitter
+theme: default
 production_url: http://username.github.com
 archive_path: /archive.html
 categories_path: /categories.html

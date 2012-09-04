@@ -1,0 +1,29 @@
+{
+  "stylesheets" : {
+    "default" : [
+      "bootstrap.css",
+      "bootstrap-responsive.css",
+      "style.css"
+    ],
+    
+    "page" : [
+    
+    ],
+    
+    "post" : [
+    
+    ],
+    
+    "widgets" : {
+
+    }
+    
+  },
+  
+  "javascripts" : {
+    "default" : [
+
+    ]
+  }
+  
+}
