@@ -14,37 +14,33 @@
     <!-- header used for all pages -->
     <header>
       <div class="row-fluid">
-        <div class="span12">
-          <div class="span8">
-            <div id="headline">
-              <div class="span6">
-          <!-- TODO: use http://www.frequency-decoder.com/demo/slabText/ for header -->
-          <div class="title">
-            Ruhoh
+
+        <div class="span3">
+          <div id="headline">
+            <!-- TODO: use http://www.frequency-decoder.com/demo/slabText/ for header -->
+            <div class="title">Ruhoh</div>
           </div>
-              </div>
-              <div class="span6">    
-          <div class="quote">font-family: 'Source Sans Pro', sans-serif; font-family: 'Source Sans Pro', sans-serif; font-family: 'Source Sans Pro', sans-serif; A Wittyd
+        </div>
+
+        <div class="span6" style="padding-top:40px; padding-right:50px">
+          <div class="quote">
+            font-family: 'Source Sans Pro', sans-serif; font-family: 'Source Sans Pro', sans-serif; font-family: 'Source Sans Pro', sans-serif; A Wittyd 
           </div>
-              </div>
-            </div>
-          </div>
-          <div class="span4">
-            <div id="contacts">
-              <div class="span11 offset1">
-                <div class="contact">
-                  <ul>
-                    <li>Github</li>
-                    <li>Twitter</li>
-                    <li>Mail</li>
-                    <li>Mail</li>
-                    <li>Mail</li>
-                  </ul>
-                </div>
-              </div>
+        </div>
+
+        <div class="span3">
+          <div id="contacts">
+            <div class="contact">
+              <ul>
+                <li>Github</li>
+                <li>Twitter</li>
+                <li>Mail</li>
+                <li>Mail</li>
+              </ul>
             </div>
           </div>
         </div>
+
       </div>
     </header>
 
@@ -52,33 +48,30 @@
     <!-- Took out navbar-inner to kill styling.  
     TODO:  - Get rid of background on active and add carrot 
         - Figure out why icons aren't working -->
+    
+    
     <div class="navbar">
       <div class="navbar-inner">
           <ul class="nav">
-            <li class="active"><a href="#"><i class="icon-globe"></i> Community</a></li>
+            <li><a href="#"><i class="icon-globe"></i> Community</a></li>
             <li><a href="#"><i class="icon-pencil"></i> Contribute</a></li>
             <li><a href="#"><i class="icon-file"></i> Docs</a></li>
           </ul>
       </div>
     </div>
-
+    
+    <hr id="breaker">
+    
     <!-- Content -->
     <div class="row-fluid">
-      <section class="about">
-        <div class="span10">
-          <h1>
-            Why Ruhoh
-          </h1>
-          <p>
-            Terry richardson master cleanse american apparel artisan wes anderson, +1 gastropub bushwick art party portland. Fanny pack gastropub fap, lo-fi bushwick sustainable mcsweeney's mustache pitchfork banksy direct trade forage cosby sweater. Ethnic mlkshk bespoke echo park portland, fap pitchfork terry richardson. Readymade sriracha master cleanse small batch hella four loko, organic street art. Pickled post-ironic 8-bit single-origin coffee +1 small batch. Raw denim jean shorts locavore, gentrify banh mi trust fund before they sold out single-origin coffee art party mixtape etsy. Aesthetic artisan trust fund bespoke typewriter.
-          </p>
-        </div>
-      </section>
+      {{{ content }}}
     </div>
 
+    <hr id="breaker">
+    
     <div class="row-fluid">
       <section class="selections">
-        <div class="span12">
+        <div class="span14">
           <h1>Selections</h1>
           <div class="date">
             <h3>August 12th, 2013<h3>
@@ -104,6 +97,5 @@
 
   <!-- /#container -->
   </div>
-  {{{ analytics }}}
   </body>
 </html>
