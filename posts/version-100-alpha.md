@@ -8,12 +8,6 @@ tags: []
 layout: post
 ---
 
-<style type="text/css">
-  h2, h3 {
-    margin:15px 0;
-  }
-  h2 {margin-left:-20px}
-</style>
 
 ## I Just Broke Everything
 
