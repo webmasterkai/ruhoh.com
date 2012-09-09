@@ -3,6 +3,7 @@ title: Ruhoh Version 1.1
 date: '2012-08-26'
 description:
 categories: releases
+tags: [apple, banana, orange, kiwi, strawberry, mango]
 ---
 
 ## Upgrading
