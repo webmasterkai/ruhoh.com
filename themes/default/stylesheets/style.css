@@ -3,7 +3,6 @@ body {
   font-weight: 400;
 }
 
-
 .responsive {
   position:relative;
   margin:0; padding:0;
@@ -45,7 +44,6 @@ header .title {
 
 header .quote {
   padding:10px;
-  font-size:20px;
   line-height:1.2em;
   font-style:italic;
 }
@@ -197,9 +195,12 @@ date {
   font-size:32px;
 }
 #action-samples li:hover{
- color:#333;
+  color:#333;
 }
 
+header .quote {
+  clear:both;
+}
 
 /* MEDIA QUERIES 
   -----------------------------------------------------------------
@@ -210,13 +211,24 @@ date {
   body {
     padding:0 2%;
   }
+
   #container {
     width:auto;
+  }
+  #contacts ul li{ 
+    margin-right:20px;
   }
 } 
 
 
 @media (min-width: 1100px) {
+  body {
+    padding-top:40px;
+  }
+  header .quote {
+    clear:none;
+    float:right;
+  }
   .metadata {
     width:170px;
     position:absolute;
